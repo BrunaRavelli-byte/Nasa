@@ -1,0 +1,99 @@
+.cabeça{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+    width: 79em;
+    height: 3em;
+    font-family: 'Bad Script', cursive;
+font-family: 'Bangers', cursive;
+
+    
+}
+main{
+background-image: url('./img/JUXoqy3.png');
+background-position: center;
+
+    width: 79em;
+    height: 50em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-start;
+    align-items: stretch;
+    font-family: 'Bad Script', cursive;
+font-family: 'Bangers', cursive;
+
+}
+
+.image{
+    width: 30em;
+    height: 22em;
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+.artigo{
+    text-align: center;
+    height: 22em;
+    color: #ffc6ff;
+}
+.formulario{
+    align-items: center;
+    width: 412px;
+    height: 62px;
+    margin-left: 492px;
+    margin-right: 363px;
+    btn-grad {background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%)}
+    .btn-grad {
+       margin: 10px;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       display: block;
+     }
+
+     .btn-grad:hover {
+       background-position: right center; /* change the direction of the change here */
+       color: #fff;
+       text-decoration: none;
+     }
+    
+}
+.rodape{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
+        width: 79em;
+        height: 3em;
+        font-family: 'Bad Script', cursive;
+    font-family: 'Bangers', cursive;
+}
+.p{
+    background-color: #f1faee;
+}
+
+@media (max-width: 769px){
+    body{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
